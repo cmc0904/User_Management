@@ -1,0 +1,52 @@
+#main {
+    position: relative;
+    height: calc(100vh - 90px);
+    /* 원래 70px, 위 아래 마진을 고려하여 + 20 */
+    left: 250px;
+    width: calc(100% - 270px);
+    /* 원래 250px, 왼쪽 오른쪽 마진을 고려하여 + 20 */
+    margin: 10px;
+
+}
+
+.title {
+    font-family: 'TheJamsil5Bold';
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.member_table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.member_table thead tr td {
+    border-top: 3px solid #434343;
+    border-bottom: 2px solid #F4F4F4;
+}
+
+
+.member_table tbody tr td, table tbody tr th {
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.member_table td {
+    padding: 10px;
+    text-align: center;
+}
+.member_table tbody th {
+    /* Added padding for better layout after collapsing */
+    padding: 20px;
+}
+
+
+.page_selector {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.page_selector a {
+    padding: 5px;
+}

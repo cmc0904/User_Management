@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+#main {
+    position: relative;
+   
+    /* 원래 70px, 위 아래 마진을 고려하여 + 20 */
+    left: 250px;
+    width: calc(100% - 270px);
+    /* 원래 250px, 왼쪽 오른쪽 마진을 고려하여 + 20 */
+    margin: 10px;
+
+}
+
+body{
+    font-family: 'TheJamsil5Bold', sans-serif;
+    background-color: white;
+    color: #434343;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

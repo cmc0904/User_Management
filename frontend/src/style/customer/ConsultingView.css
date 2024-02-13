@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+#main {
+    position: relative;
+   
+    /* 원래 70px, 위 아래 마진을 고려하여 + 20 */
+    left: 250px;
+    width: calc(100% - 270px);
+    /* 원래 250px, 왼쪽 오른쪽 마진을 고려하여 + 20 */
+    margin: 10px;
+
+}
+
+
+#chat-container {
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#messages {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+#user-input {
+    display: flex;
+    padding: 10px;
+}
+
+#user-input input {
+    flex: 1;
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#user-input button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}

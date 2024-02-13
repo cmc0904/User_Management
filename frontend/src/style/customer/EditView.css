@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+#main {
+    position: relative;
+    
+    /* 원래 70px, 위 아래 마진을 고려하여 + 20 */
+    left: 250px;
+    width: calc(100% - 270px);
+    /* 원래 250px, 왼쪽 오른쪽 마진을 고려하여 + 20 */
+    margin: 10px;
+
+}
+
+
+
+
+
+nav *{
+    font-size: 16px;
+    
+}
+
+html {
+    font-size: 13px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.board_title{
+    margin-bottom: 30px;
+}
+
+.board_title strong{
+    font-size: 3rem;
+}
+
+.board_title p{
+    margin-top: 5px;
+    font-size: 1.4rem;
+
+}
+
+
+
+.bt_wrap{
+    margin-top: 30px;
+    font-size: 0;
+    text-align: center;
+}
+
+.bt_wrap a{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 1.4rem
+}
+
+.bt_wrap a  :first-child{
+    margin-left: 0;
+}
+
+.bt_wrap a.on{
+    background-color: black;
+    color: white;
+}
